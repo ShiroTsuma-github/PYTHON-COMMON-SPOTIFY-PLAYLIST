@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1> O co chodzi z apliokacja </h1>
+{{ me }}
+<ul>
+{% if messages is not none %}
+{% for item in messages %}
+    <li> {{item}} </li>
+{% endfor %}
+{% endif %}
+</ul>
+{% endblock %}

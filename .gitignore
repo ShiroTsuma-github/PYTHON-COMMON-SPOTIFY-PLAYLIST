@@ -1,1 +1,6 @@
 venv/
+.env
+.cache
+debug.log
+__pycache__
+.vscode
